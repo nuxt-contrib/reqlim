@@ -1,7 +1,7 @@
 {
   "name": "r-limit",
   "version": "0.0.0",
-  "main": "src/middleware.js",
+  "main": "lib/middleware.js",
   "license": "MIT",
   "description": "Connect/Express middleware to limit requests",
   "repository": "jsless/r-limit.git",
@@ -9,14 +9,14 @@
     "Pooya Parsa <pooya@pi0.ir>"
   ],
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint lib",
     "test": "npm run lint && npm run jest",
     "jest": "jest",
     "release": "standard-version && git push --follow-tags && npm publish",
     "prepare": "npm run test"
   },
   "files": [
-    "src"
+    "lib"
   ],
   "dependencies": {
     "consola": "^2.4.0"
