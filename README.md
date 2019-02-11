@@ -1,4 +1,4 @@
-# r-limit
+# reqlim
 
 > Connect/Express middleware to limit requests based on [express-rate-limit](https://github.com/nfriedly/express-rate-limit)
 
@@ -16,19 +16,19 @@
 Install package:
 
 ```bash
-npm install r-limit
+npm install reqlim
 ```
 
 OR
 
 ```bash
-yarn add r-limit
+yarn add reqlim
 ```
 
 Import and use middleware:
 
 ```js
-const rateLimit = require('r-limit')
+const rateLimit = require('reqlim')
 
 app.use(rateLimit())
 
@@ -106,20 +106,20 @@ Made with 💖
 [standard-src]: https://flat.badgen.net/badge/code%20style/standard/green
 [standard-href]: https://standardjs.com
 
-[npm-v-src]: https://flat.badgen.net/npm/v/r-limit/latest
-[npm-v-href]: https://npmjs.com/package/r-limit
+[npm-v-src]: https://flat.badgen.net/npm/v/reqlim/latest
+[npm-v-href]: https://npmjs.com/package/reqlim
 
-[npm-dt-src]: https://flat.badgen.net/npm/dt/r-limit
-[npm-dt-href]: https://npmjs.com/package/r-limit
+[npm-dt-src]: https://flat.badgen.net/npm/dt/reqlim
+[npm-dt-href]: https://npmjs.com/package/reqlim
 
-[packagephobia-src]: https://flat.badgen.net/packagephobia/install/r-limit
-[packagephobia-href]: https://packagephobia.now.sh/result?p=r-limit
+[packagephobia-src]: https://flat.badgen.net/packagephobia/install/reqlim
+[packagephobia-href]: https://packagephobia.now.sh/result?p=reqlim
 
-[david-src]: https://flat.badgen.net/david/dep/jsless/r-limit
-[david-href]: https://david-dm.org/jsless/r-limit
+[david-src]: https://flat.badgen.net/david/dep/jsless/reqlim
+[david-href]: https://david-dm.org/jsless/reqlim
 
-[codecov-src]: https://flat.badgen.net/codecov/c/github/jsless/r-limit/master
-[codecov-href]: https://codecov.io/gh/jsless/r-limit
+[codecov-src]: https://flat.badgen.net/codecov/c/github/jsless/reqlim/master
+[codecov-href]: https://codecov.io/gh/jsless/reqlim
 
-[circleci-src]: https://flat.badgen.net/circleci/github/jsless/r-limit/master
-[circleci-href]: https://circleci.com/gh/jsless/r-limit
+[circleci-src]: https://flat.badgen.net/circleci/github/jsless/reqlim/master
+[circleci-href]: https://circleci.com/gh/jsless/reqlim

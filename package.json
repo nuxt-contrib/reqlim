@@ -1,10 +1,10 @@
 {
-  "name": "r-limit",
+  "name": "reqlim",
   "version": "0.0.0",
   "main": "lib/middleware.js",
   "license": "MIT",
   "description": "Connect/Express middleware to limit requests",
-  "repository": "jsless/r-limit.git",
+  "repository": "jsless/reqlim.git",
   "contributes": [
     "Pooya Parsa <pooya@pi0.ir>"
   ],
