@@ -1,7 +1,7 @@
 const connect = require('connect')
 const Axios = require('axios')
-const rateLimit = require('../src/middleware')
-const MemoryStore = require('../src/memory')
+const rateLimit = require('../lib/middleware')
+const MemoryStore = require('../lib/memory')
 
 describe('basic', () => {
   let app
